@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <main>
+        <form action="#">
+            <h1>Registro usuario</h1>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" class="nombre" >
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" class="apellido">
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="text" name="fecha" id="fecha" class="fecha">
+            <label for="tel">Teléfono</label>
+            <input type="text" name="tel" id="tel" class="tel">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="contra">Contraseña</label>
+            <input type="text" name="contra">
+            <label for="contraOtra">Repetir Contraseña</label>
+            <input type="text" name="contraOtra">
+            <input type="checkbox" checked><label for="">Acepta Términos</label>
+
+            <div class="registrar" onclick="nombreVal()">Registrar</div>
+            <button>Cancelar</button>
+        </form>
+    </main>
+</body>
+</html>
