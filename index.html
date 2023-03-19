@@ -26,10 +26,12 @@
             <input type="text" name="contra" id="contra">
             <label for="contraOtra">Repetir Contraseña</label>
             <input type="text" name="contraOtra" id="contraOtra">
-            <input type="checkbox" checked><label for="">Acepta Términos</label>
+            <label for="" class="acepta">Acepta Términos</label><input type="checkbox" checked class="checkbox" style="height: 10px; width: 20px;">
 
-            <div class="registrar" onclick="nombreVal()">Registrar</div>
-            <button>Cancelar</button>
+            <div class="botones">
+                <div class="registrar" onclick="nombreVal()">Registrar</div>
+                <button class="cancelar" onclick="cancelar()">Cancelar</button>
+            </div>
         </form>
     </main>
 </body>
